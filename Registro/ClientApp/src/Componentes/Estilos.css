@@ -1,0 +1,42 @@
+﻿
+.login-form {
+    border-radius: 15px;
+    background-color: white;
+    border: 5px solid transparent;
+    animation: border-glow 2s infinite alternate;
+    margin: auto;
+    max-width: 400px;
+    color: black;
+
+}
+.login-form .form-label{
+    font-size: 1.2em;
+}
+login-form .form-control {
+    font-size: 1.1em;
+}
+.login-form h2 {
+    font-size: 2em;
+}
+.login-form h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+@keyframes border-glow{
+    from {
+        border-color: #ff69b4;
+    }
+    to {
+        border-color: #7fffd4;
+    }
+
+}
+.login-container {
+background-color: #a1cfc8;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}

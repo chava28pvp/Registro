@@ -1,0 +1,22 @@
+{
+
+  "exclude": [
+    {
+      "username": "adminUser",
+      "role": "Admin",
+      "password": "adminPassword123",
+      "permissions": [
+        "manage_users",
+        "view_reports",
+        "edit_settings"
+      ]
+
+    }
+    
+  ]
+}
+
+
+
+
+
